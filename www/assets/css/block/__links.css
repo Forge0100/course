@@ -1,0 +1,13 @@
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: clBrightGray;
+  text-decoration: none;
+}
+a:hover {
+  color: clBrightGray -5%;
+}
+a.default {
+  color: clBlue;
+}

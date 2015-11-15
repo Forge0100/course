@@ -1,0 +1,9 @@
+.container {
+  padding: 15px 20px;
+  background: #fff;
+}
+.container:after {
+  content: ' ';
+  clear: both;
+  display: table;
+}

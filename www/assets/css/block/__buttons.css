@@ -1,0 +1,72 @@
+a,
+button,
+input[type="reset"],
+input[type="submit"] {
+  margin-bottom: 15px;
+}
+a.button,
+button.button,
+input[type="reset"].button,
+input[type="submit"].button {
+  background: clBlue;
+  color: clBrightGray;
+  border: none;
+  padding: 5px 15px;
+  font-size: 14px;
+  text-align: center;
+}
+a.button:hover,
+button.button:hover,
+input[type="reset"].button:hover,
+input[type="submit"].button:hover {
+  color: clBrightGray -5%;
+  cursor: pointer;
+  outline: 1px solid #f00;
+}
+a.button--red,
+button.button--red,
+input[type="reset"].button--red,
+input[type="submit"].button--red {
+  background: clRed;
+}
+a.button--green,
+button.button--green,
+input[type="reset"].button--green,
+input[type="submit"].button--green {
+  background: clGreen;
+}
+a.button--yellow,
+button.button--yellow,
+input[type="reset"].button--yellow,
+input[type="submit"].button--yellow {
+  background: clYellow;
+}
+a.button--middle,
+button.button--middle,
+input[type="reset"].button--middle,
+input[type="submit"].button--middle {
+  padding: 8px 25px;
+  font-size: 16px;
+}
+a.button--large,
+button.button--large,
+input[type="reset"].button--large,
+input[type="submit"].button--large {
+  padding: 10px 30px;
+  font-size: 18px;
+}
+a.button--inline,
+button.button--inline,
+input[type="reset"].button--inline,
+input[type="submit"].button--inline {
+  width: 100%;
+  display: inline-block;
+}
+@media (max-width: 641px) {
+  a.button,
+  button.button,
+  input[type="reset"].button,
+  input[type="submit"].button {
+    width: 100%;
+  }
+}

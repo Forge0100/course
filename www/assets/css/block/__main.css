@@ -1,0 +1,15 @@
+* {
+  font-family: 'PT Sans', sans-serif;
+  color: clBlack;
+  box-sizing: border-box;
+}
+*:hover,
+*:active,
+*:focus,
+*:visited {
+  outline: none !important;
+}
+.wrapper {
+  max-width: grid_size;
+  margin: 0 auto;
+}

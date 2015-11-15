@@ -1,0 +1,13 @@
+h3 {
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+.right-float {
+  float: right;
+}
+.right-float:after {
+  content: ' ';
+  clear: both;
+  display: table;
+}

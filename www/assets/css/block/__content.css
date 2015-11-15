@@ -1,0 +1,14 @@
+.content {
+  background: clBrightGray;
+  padding: 50px 10px 10px 10px;
+}
+.block-center,
+display inline-block {
+  margin: 0 auto;
+}
+.text-center {
+  text-align: center;
+}
+.line-height {
+  line-height: 20px;
+}

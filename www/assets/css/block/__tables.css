@@ -1,0 +1,17 @@
+.table {
+  width: 100%;
+  border: 1px solid clBlue;
+  border-collapse: collapse;
+}
+.table tr,
+.table td {
+  border: 1px solid clBlue;
+}
+.table td {
+  width: 100%;
+  padding: 15px;
+  text-align: center;
+}
+.table thead {
+  font-weight: 600;
+}

@@ -1,0 +1,14 @@
+.list {
+  padding-left: 12px;
+  line-height: 25px;
+  padding-left: 0;
+}
+.list__item {
+  list-style-image: url("../../img/point.png");
+}
+.list__none {
+  list-style-type: none;
+}
+.list__space {
+  margin-bottom: 15px;
+}

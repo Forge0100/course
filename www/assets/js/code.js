@@ -135,6 +135,8 @@
           localStorage.setItem('token', data.data.api_token);
           localStorage.setItem('id', data.data.id);
           return $location.path('/');
+        }, function(error) {
+          return alert(alert(error.data.message));
         });
       };
     }
